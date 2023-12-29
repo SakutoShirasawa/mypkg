@@ -39,7 +39,25 @@ ros2 run mypkg talker
 cd ~/ros2_ws
 ros2 run mypkg listener
 ```
+## 実行結果  
+[INFO] [Listener]: Listen: 34  
+[INFO] [Listener]: Listen: 35  
+[INFO] [Listener]: Listen: 36  
+[INFO] [Listener]: Listen: 37  
+[INFO] [Listener]: Listen: 38  
+[INFO] [Listener]: Listen: 39  
+・・・  
+端末１に何も表示がないのは正常に動作しているということです  
 
+## 必要なソフトウェア  
+python テスト済み：3.7～3.10  
+
+## テスト環境  
+・Ubuntu22.04.3LTS  
+
+## 権利  
+* このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
+* © 2023 SakutoShirasawa
 
 
 
