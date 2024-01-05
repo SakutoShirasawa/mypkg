@@ -24,12 +24,14 @@ ros2 launch mypkg talk_listen.launch.py
 ## 実行結果  
 方法１  
 ```
-[INFO] [Listener]: Listen: 34  
-[INFO] [Listener]: Listen: 35  
-[INFO] [Listener]: Listen: 36  
-[INFO] [Listener]: Listen: 37  
-[INFO] [Listener]: Listen: 38  
-[INFO] [Listener]: Listen: 39  
+[INFO] [1704429933.069873300] [listener]: Listen: 23
+[INFO] [1704429933.561134400] [listener]: Listen: 24
+[INFO] [1704429934.061915600] [listener]: Listen: 25
+[INFO] [1704429934.560646200] [listener]: Listen: 26
+[INFO] [1704429935.062060100] [listener]: Listen: 27
+[INFO] [1704429935.560483500] [listener]: Listen: 28
+[INFO] [1704429936.061981200] [listener]: Listen: 29
+[INFO] [1704429936.561264000] [listener]: Listen: 30  
 ```  
 端末１に何も表示がないのは正常に動作しているということです  
 
@@ -48,6 +50,7 @@ ros2 launch mypkg talk_listen.launch.py
 [listener-2] [INFO] [1704429517.029317000] [listener]: Listen: 6
 [listener-2] [INFO] [1704429517.528651500] [listener]: Listen: 7  
 ```  
+いずれも、Ctrl+Cで終了できます  
 
 ## ノードの詳細内容
  ＊talker ・・・起動するとカウントを始め、出力するノード
