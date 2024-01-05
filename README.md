@@ -6,18 +6,18 @@
 ## 実行方法  
 方法１　端末を２つ用意する  
 - 端末１　talker
-   以下のコマンドを使用   
+  - 以下のコマンドを使用   
 ```  
 ros2 run mypkg talker  
 ```  
 - 端末２　listener  
-   以下のコマンドを使用  
+  - 以下のコマンドを使用  
 ```  
 ros2 run mypkg listener  
 ```  
 
 方法２　端末を１つ用意する  
-   以下のコマンドを使用  
+  - 以下のコマンドを使用  
 ```
 ros2 launch mypkg talk_listen.launch.py  
 ```
