@@ -5,12 +5,12 @@
 このリポジトリは、千葉工業大学の2023年度ロボットシステム学の講義内課題です。また、このリポジトリはros2のパッケージです。コマンドを使用する場合は、各自のワークスペースで実行してください。  
 ## 実行方法  
 方法１　端末を２つ用意する  
- ・端末１　talker
+- 端末１　talker
    以下のコマンドを使用   
 ```  
 ros2 run mypkg talker  
 ```  
- ・端末２　listener  
+- 端末２　listener  
    以下のコマンドを使用  
 ```  
 ros2 run mypkg listener  
@@ -53,18 +53,18 @@ ros2 launch mypkg talk_listen.launch.py
 いずれも、Ctrl+Cで終了できます  
 
 ## ノードの詳細内容
- ＊talker ・・・起動するとカウントを始め、出力するノード
+- talker ・・・起動するとカウントを始め、出力するノード
 
- ＊listener・・・talkerからcountupというトピックを通して標準出力するノード  
+- listener・・・talkerからcountupというトピックを通して標準出力するノード  
 ## トピックの説明  
- ＊int16型のメッセージをtalkerから受け取り、listenerに渡す  
+- int16型のメッセージをtalkerから受け取り、listenerに渡す  
 
 ## 必要なソフトウェア  
- ＊python テスト済み：3.7～3.10  
+- python テスト済み：3.7～3.10  
 
 ## テスト環境  
-・Ubuntu22.04.3LTS  
+- Ubuntu22.04.3LTS  
 
 ## 権利  
- ＊ このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．  
- ＊ © 2023 SakutoShirasawa
+- このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．  
+- © 2023 SakutoShirasawa
